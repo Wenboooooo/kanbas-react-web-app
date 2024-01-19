@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="./index.html">Course Details</a>
+<a href="#">Sections</a>
+<a href="../Navigation/index.html">Navigation</a>
+<a href="#">Apps</a>
+<a href="#">Feature Options</a>
+<a href="#">Integrations</a>
+<h1>Course Details</h1>
+<label for="image">Image: </label>
+<button id="image">Choose Image</button>
+<h5>Course Code: CS4550</h5>
+<h5>Blueprint Course: No</h5>
+<label for="template">Course Template</label>
+<input type="checkbox" id="template">
+<label for="template">Enable course as a Course Template</label><br/><br/>
+<label for="timezone">Time Zone: </label>
+<select name="" id="timezone">
+    <option selected value="PT">PT</option>
+    <option value="ET">ET</option>
+    <option value="CT">CT</option>
+</select>
+<h5>SIS ID: CS4550</h5>
+<h5>Subaccount: CS graduate</h5>
+<label for="participation">Participation</label>
+<select name="" id="participation">
+    <option value="term">Term</option>
+</select><br/><br/>
+<label for="start"> Start: </label>
+<input type="date"
+       id="start"
+       value="2000-01-21"/><br/><br/>
+<label for="end"> End: </label>
+<input type="date"
+       id="end"
+       value="2000-01-21"/><br/><br/>
+<input type="checkbox" id="restrict_start">
+<label for="restrict_start">Restrict students from viewing course before term start date</label><br/><br/>
+<input type="checkbox" id="restrict_end">
+<label for="restrict_end">Restrict students from viewing course after term end date</label><br/><br/>
+<label for="default_due_time">Default due time: </label>
+<select name="" id="default_due_time">
+    <option value="Account default(11:59 pm)">Account default(11:59 pm)</option>
+</select><br/><br/>
+<label for="language">Language: </label>
+<select name="" id="language">
+    <option value="English">English</option>
+</select>
+<h5>File Storage: 1000000 megabytes</h5>
+<label for="large_course">Large Course: </label>
+<input type="checkbox" id="large_course">
+<label for="large_course">Launch SpeedGrader Filtered by Student Group</label><br/><br/>
+<label for="grading">Grading Scheme</label>
+<input type="checkbox" id="grading">
+<label for="grading">Enable course grading scheme</label><br/><br/>
+<label for="license">License: </label>
+<select name="" id="license">
+    <option value="private">Private(Copyrighted)</option>
+</select><br/><br/>
+<label for="file_copyright">File Copyright</label>
+<input type="checkbox" id="file_copyright">
+<label for="grading">Copyright and license information must be provided for files before they are published</label><br/><br/>
+<label for="visibility">Visibility</label>
+<h5>if you need to make your course public please contact your administrator/support</h5>
+<select name="" id="">
+    <option value="course">Course</option>
+</select><br/><br/>
+<input type="checkbox" id="visibility">
+<label for="visibility">Include this course in this public course index</label><br/><br/>
+<label for="format">Format</label>
+<select name="" id="format">
+    <option value="On-Campus">On-Campus</option>
+</select><br/><br/>
+<label for="mastery_paths">Mastery Paths</label>
+<input type="checkbox" id="mastery_paths">
+<label for="mastery_paths">Enable individual learning paths for students based on assessment</label><br/><br/>
+<label for="description">Description</label>
+<form action="" >
+    <textarea name="" id="description" cols="30" rows="10"></textarea>
+</form>
+<button>Update Course Details</button>
+</body>
+</html>
