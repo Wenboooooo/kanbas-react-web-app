@@ -2,78 +2,119 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Assignment Edit</title>
+    <link rel="stylesheet" href="/Kanbas/styles.css"/>
+    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="/Kanbas/Navigation/index.css"/>
+    <link rel="stylesheet" href="/Kanbas/Courses/Assignments/index.css">
+    <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css">
 </head>
 <body>
-<table>
-    <tr>
-        <td style="vertical-align: top;">
-            <ul>
-                <li><a href="/Kanbas/Account/Profile/screen.html">Account</a>
-                </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Calendar</a>
-                </li>
-                <li>
-                    <a href="#">Inbox</a>
-                </li>
-                <li>
-                    <a href="#">History</a>
-                </li>
-                <li>
-                    <a href="#">Studio</a>
-                </li>
-                <li>
-                    <a href="#">Commons</a>
-                </li>
-                <li>
-                    <a href="#">Help</a>
-                </li>
-            </ul>
-        </td>
+<div class="h-100" style="display: flex">
+    <div class="d-none d-sm-block h-100">
+        <ul class="wd-kanbas-navigation h-100">
 
+            <li>
+                <img src="/images/neu.png" style="width: 70px" alt="Northeastern University">
+            </li>
 
-        <td style="vertical-align: top;">
-            <ul>
-                <li><a href="#">Notifications</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Files</a></li>
-                <li><a href="#">Settings</a></li>
-                <li><a href="#">ePortfolios</a></li>
-                <li><a href="#">Shared Content</a></li>
-                <li><a href="#">The Hub</a></li>
-                <li><a href="#">Qwickly Course Tools</a></li>
-                <li><a href="#">Global Announcements</a></li>
-            </ul>
-        </td>
+            <li class="wd-active">
+                <a href="/Kanbas/Account/Profile/screen.html">
+                    <i class="fa fa-user"></i>
+                    Account
+                </a>
+            </li>
 
-        <td style="vertical-align: top;">
-            <table>
-                <tr>
-                    <td style="vertical-align: top;">
-                        <h1>Wenbo Liu</h1>
-                        <h2>Contact</h2>
-                        <h5>No registered services, you can add some on the settings page.</h5>
-                        <h2>Biography</h2>
-                        <h5>No registered services, you can add some on the settings page.</h5>
-                        <h2>Youtube</h2>
-                        <h5>No registered services, you can add some on the settings page.</h5>
-                    </td>
+            <li>
+                <a href="/Kanbas/Dashboard/screen.html">
+                    <i class="fa fa-tachometer"></i>
+                    Dashboard
+                </a>
+            </li>
 
-                    <td style="vertical-align: top;">
-                        <button><a href="./Edit/screen.html">edit profile</a></button>
-                    </td>
-                </tr>
-            </table>
+            <li>
+                <a href="/Kanbas/Courses/Home/screen.html">
+                    <i class="fa fa-book"></i>
+                    Courses
+                </a>
+            </li>
 
-        </td>
-    </tr>
-</table>
+            <li>
+                <a href="/Kanbas/Courses/Home/screen.html">
+                    <i class="fa fa-group"></i>
+                    Groups
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-calendar"></i>
+                    Calendar
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-inbox"></i><br/>
+                    Inbox
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-history"></i>
+                    History
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-laptop"></i>
+                    Studio
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-info"></i><br/>
+                    Commons
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-question-circle-o"></i><br/>
+                    Help
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="d-none d-md-block">
+        <ul class="wd-navigation">
+            <li><a href="#">Notifications</a></li>
+            <li class="wd-active"><a href="/Kanbas/Account/Profile/screen.html">Profile</a></li>
+            <li><a href="#">Files</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">ePortfolios</a></li>
+            <li><a href="#">Shared Content</a></li>
+            <li><a href="#">The Hub</a></li>
+            <li><a href="#">Qwickly Course Tools</a></li>
+            <li><a href="#">Global Announcements</a></li>
+        </ul>
+    </div>
+
+    <div style="margin-left: 20px; flex: 1;">
+        <h1>Wenbo Liu</h1>
+        <h2>Contact</h2>
+        <h5>No registered services, you can add some on the settings page.</h5>
+        <h2>Biography</h2>
+        <h5>No registered services, you can add some on the settings page.</h5>
+        <h2>Youtube</h2>
+        <h5>No registered services, you can add some on the settings page.</h5>
+        <hr>
+    </div>
+</div>
 </body>
 </html>
