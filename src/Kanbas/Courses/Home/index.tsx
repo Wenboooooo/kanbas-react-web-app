@@ -1,13 +1,17 @@
 import ModuleList from "../Modules/List";
-
+import HomeStatus from "./HomeStatus";
 
 function Home() {
     return (
-        <div>
-            <h2>Home</h2>
-            <ModuleList />
-            <h2>Status</h2>
+
+        <div className="my-2 mx-2" style={{display: "flex"}}>
+            <div style={{flex: 1}}>
+                <ModuleList/>
+            </div>
+            <HomeStatus/>
         </div>
     );
+
 }
+
 export default Home;
