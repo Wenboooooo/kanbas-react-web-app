@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import {courses} from "../Database";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Dashboard({ courses, course, setCourse, addNewCourse,
                        deleteCourse, updateCourse }: {

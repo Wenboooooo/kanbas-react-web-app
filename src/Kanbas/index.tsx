@@ -8,6 +8,7 @@ import store from "./store";
 import {Provider} from "react-redux";
 
 
+
 function Kanbas() {
     const [lectures, setLectures] = useState<any[]>(courses);
     const [course, setCourse] = useState({

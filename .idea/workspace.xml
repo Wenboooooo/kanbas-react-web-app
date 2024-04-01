@@ -8,16 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/Editor/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/Editor/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kanbas/Dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Dashboard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Navigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Navigation/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kanbas/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/a3/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/a3/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labs/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav.tsx" afterDir="false" />
     </list>
@@ -47,29 +40,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;a3&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/5610/kanbas-react-web-app/src/Kanbas/Courses/Modules&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\5610\\kanbas-react-web-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "a4",
+    "last_opened_file_path": "D:/5610/kanbas-react-web-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\5610\\kanbas-react-web-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\5610\kanbas-react-web-app\src" />
       <recent name="D:\5610\kanbas-react-web-app\src\Kanbas\Courses\Modules" />
       <recent name="D:\5610\kanbas-react-web-app\src\Kanbas\Courses\Navigation" />
       <recent name="D:\5610\kanbas-react-web-app\src\Kanbas\Navigation" />
       <recent name="D:\5610\kanbas-react-web-app\public\images" />
-      <recent name="D:\5610\kanbas-react-web-app\public\labs\a1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\5610\kanbas-react-web-app\src\Labs\a4\ReduxExamples\CounterRedux" />
@@ -118,6 +111,10 @@
       <workItem from="1710622671136" duration="9834000" />
       <workItem from="1710705400129" duration="11914000" />
       <workItem from="1710794687647" duration="14590000" />
+      <workItem from="1710826502105" duration="8000" />
+      <workItem from="1710903086450" duration="720000" />
+      <workItem from="1711394029155" duration="130000" />
+      <workItem from="1711851884853" duration="12174000" />
     </task>
     <servers />
   </component>

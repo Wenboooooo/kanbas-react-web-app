@@ -9,8 +9,7 @@ import {
     setAssignment,
 } from "./assignmentsReducer";
 import { KanbasState } from "../../store";
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Assignments() {
@@ -27,6 +26,7 @@ function Assignments() {
                 <label>
                     Title:
                     <input
+                        className="form-control"
                         value={assignment.title}
                         placeholder="Title"
                         onChange={(e) => dispatch(setAssignment({ ...assignment, title: e.target.value }))}
@@ -35,6 +35,7 @@ function Assignments() {
                 <label>
                     Description:
                     <textarea
+                        className="form-control"
                         value={assignment.description}
                         placeholder="Description"
                         onChange={(e) => dispatch(setAssignment({ ...assignment, description: e.target.value }))}
