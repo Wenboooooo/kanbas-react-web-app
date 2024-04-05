@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2cdb4a0d-e2e5-4f30-a93b-b473561d7d47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanbas-node-server-app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanbas-node-server-app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanbas-node-server-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/kanbas-node-server-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/kanbas-node-server-app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +40,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "a5",
     "last_opened_file_path": "D:/5610/kanbas-react-web-app/kanbas-node-server-app/Kanbas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -115,7 +115,7 @@
       <workItem from="1712211054690" duration="238000" />
       <workItem from="1712211306160" duration="4203000" />
       <workItem from="1712215575155" duration="1161000" />
-      <workItem from="1712262866999" duration="12141000" />
+      <workItem from="1712262866999" duration="13080000" />
     </task>
     <servers />
   </component>
