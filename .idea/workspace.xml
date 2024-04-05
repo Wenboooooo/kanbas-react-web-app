@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cdb4a0d-e2e5-4f30-a93b-b473561d7d47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/Editor/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/Editor/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/assignmentsReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/assignmentsReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Grades/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Grades/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Dashboard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/assignments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/assignments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/courses.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/courses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/enrollments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/enrollments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/grades.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/grades.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/modules.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/modules.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kanbas/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbas-node-server-app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanbas-node-server-app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbas-node-server-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/kanbas-node-server-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +115,7 @@
       <workItem from="1712211054690" duration="238000" />
       <workItem from="1712211306160" duration="4203000" />
       <workItem from="1712215575155" duration="1161000" />
-      <workItem from="1712262866999" duration="11190000" />
+      <workItem from="1712262866999" duration="12141000" />
     </task>
     <servers />
   </component>
