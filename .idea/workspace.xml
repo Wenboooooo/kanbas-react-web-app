@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cdb4a0d-e2e5-4f30-a93b-b473561d7d47" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/Editor/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/Editor/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/assignmentsReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/assignmentsReducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Assignments/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Grades/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Grades/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/List.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/Modules/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Courses/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Courses/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kanbas/Dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Dashboard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/assignments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/assignments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/courses.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/courses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/enrollments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/enrollments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/grades.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/grades.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/modules.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/modules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kanbas/Database/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/Database/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kanbas/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kanbas/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/kanbas-node-server-app" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,8 +56,8 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "a4",
-    "last_opened_file_path": "D:/5610/kanbas-react-web-app",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/5610/kanbas-react-web-app/kanbas-node-server-app/Kanbas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,17 +69,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\5610\kanbas-react-web-app\kanbas-node-server-app\Kanbas" />
       <recent name="D:\5610\kanbas-react-web-app\src" />
       <recent name="D:\5610\kanbas-react-web-app\src\Kanbas\Courses\Modules" />
       <recent name="D:\5610\kanbas-react-web-app\src\Kanbas\Courses\Navigation" />
       <recent name="D:\5610\kanbas-react-web-app\src\Kanbas\Navigation" />
-      <recent name="D:\5610\kanbas-react-web-app\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\5610\kanbas-react-web-app\kanbas-node-server-app\Kanbas\Courses" />
+      <recent name="D:\5610\kanbas-react-web-app\kanbas-node-server-app\Courses" />
       <recent name="D:\5610\kanbas-react-web-app\src\Labs\a4\ReduxExamples\CounterRedux" />
       <recent name="D:\5610\kanbas-react-web-app\src\Kanbas\Courses" />
       <recent name="D:\5610\kanbas-react-web-app\src\Labs\a3\JavaScript\arrays" />
-      <recent name="D:\5610\kanbas-react-web-app\public\Kanbas" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -115,18 +127,15 @@
       <workItem from="1710903086450" duration="720000" />
       <workItem from="1711394029155" duration="130000" />
       <workItem from="1711851884853" duration="12174000" />
+      <workItem from="1712089282090" duration="7000" />
+      <workItem from="1712211054690" duration="238000" />
+      <workItem from="1712211306160" duration="4203000" />
+      <workItem from="1712215575155" duration="1161000" />
+      <workItem from="1712262866999" duration="11190000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/reportWebVitals.js" />
-        <option value="$PROJECT_DIR$/src/setupTests.js" />
-        <option value="$PROJECT_DIR$/src/App.test.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-      </list>
-    </option>
   </component>
 </project>

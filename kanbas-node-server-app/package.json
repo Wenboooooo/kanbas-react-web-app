@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/Wenboooooo/kanbas-react-web-app#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2"
   }
 }

@@ -1,4 +1,8 @@
-import { assignments, enrollments, grades, users } from "../../Database";
+import assignments from "../../Database/assignments";
+import enrollments from "../../Database/enrollments"
+import grades from "../../Database/grades"
+import users from "../../Database/users"
+
 import { useParams } from "react-router-dom";
 function Grades() {
     const { courseId } = useParams();

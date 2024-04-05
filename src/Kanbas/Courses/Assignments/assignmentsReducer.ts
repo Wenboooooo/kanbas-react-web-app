@@ -1,4 +1,4 @@
-import { assignments } from "../../Database";
+import assignments from "../../Database/assignments";
 import {createSlice} from "@reduxjs/toolkit";
 
 
