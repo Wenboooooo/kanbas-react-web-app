@@ -1,29 +1,57 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import "./index.css";
-import {modules} from "../../Database";
+import modules from "../../Database/modules";
 import {FaEllipsisV, FaCheckCircle, FaPlusCircle} from "react-icons/fa";
 import {useParams} from "react-router";
-import { useSelector, useDispatch } from "react-redux";
+import {useSelector, useDispatch} from "react-redux";
 import {
     addModule,
     deleteModule,
     updateModule,
     setModule,
+    setModules,
 } from "./reducer";
-import { KanbasState } from "../../store";
-
-
+import {KanbasState} from "../../store";
+import {findModulesForCourse, createModule} from "./client";
+import * as client from "./client";
 
 
 function ModuleList() {
+
+    const handleUpdateModule = async () => {
+        const status = await client.updateModule(module);
+        dispatch(updateModule(module));
+    };
+
+
+
+    const handleDeleteModule = (moduleId: string) => {
+        client.deleteModule(moduleId).then((status) => {
+            dispatch(deleteModule(moduleId));
+        });
+    };
+
+
+    const handleAddModule = () => {
+        createModule(courseId, module).then((module) => {
+            dispatch(addModule(module));
+        });
+    };
+
+
     const {courseId} = useParams();
+    useEffect(() => {
+        findModulesForCourse(courseId)
+            .then((modules) =>
+                dispatch(setModules(modules))
+            );
+    }, [courseId]);
+
     const moduleList = useSelector((state: KanbasState) =>
         state.modulesReducer.modules);
     const module = useSelector((state: KanbasState) =>
         state.modulesReducer.module);
     const dispatch = useDispatch();
-
-
 
 
     // const [moduleList, setModuleList] = useState<any[]>(modules);
@@ -102,18 +130,21 @@ function ModuleList() {
 
             <ul className="list-group wd-modules">
                 <li className="list-group-item">
-                    <button onClick={() => dispatch(addModule({ ...module, course: courseId }))}>
+                    {/*<button onClick={() => dispatch(addModule({ ...module, course: courseId }))}>*/}
+                    {/*    Add*/}
+                    {/*</button>*/}
+                    <button onClick={handleAddModule}>
                         Add
                     </button>
-                    <button onClick={() => dispatch(updateModule(module))}>
+                    <button onClick={handleUpdateModule}>
                         Update
                     </button>
 
                     <input value={module.name}
-                           onChange={(e) => dispatch(setModule({ ...module, name: e.target.value }))
+                           onChange={(e) => dispatch(setModule({...module, name: e.target.value}))
                            }/>
                     <textarea value={module.description}
-                              onChange={(e) => dispatch(setModule({ ...module, description: e.target.value }))
+                              onChange={(e) => dispatch(setModule({...module, description: e.target.value}))
                               }/>
 
                 </li>
@@ -129,7 +160,7 @@ function ModuleList() {
 
 
                             <button
-                                onClick={() => dispatch(deleteModule(module._id))}>
+                                onClick={() => handleDeleteModule(module._id)}>
                                 Delete
                             </button>
 
