@@ -1,6 +1,6 @@
 // import React from "react";
 // import { useNavigate, useParams, Link } from "react-router-dom";
-import assignments from "../../../Database/assignments";
+import assignments from "../../../Database/courses";
 
 import React, {useEffect} from "react";
 import { FaCheckCircle, FaEllipsisV, FaPlusCircle } from "react-icons/fa";
